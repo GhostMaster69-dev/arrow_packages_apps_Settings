@@ -245,4 +245,8 @@
 
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 </resources>
