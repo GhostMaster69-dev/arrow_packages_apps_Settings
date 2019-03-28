@@ -211,6 +211,12 @@ public class PowerUsageSummary extends PowerUsageBase implements
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
 
+        // Check availability of Smart Charging
+        Preference mSmartCharging = (Preference) findPreference("smart_charging_key");
+        if (!getResources().getBoolean(R.bool.config_supportSmartCharging)) {
+		getPreferenceScreen().removePreference(mSmartCharging);
+	}
+
         // Check availability of Battery Health
         Preference mDesignedHealthPref = (Preference) findPreference(KEY_DESIGNED_BATTERY_CAPACITY);
         if (!getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
