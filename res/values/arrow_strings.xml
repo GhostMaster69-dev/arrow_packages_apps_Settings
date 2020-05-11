@@ -230,4 +230,8 @@
     <!-- Daily battery usage charge -->
     <string name="daily_battery_usage_chart">Daily battery usage chart</string>
     <string name="daily_battery_usage_chart_summary">View usage for past 24 hours</string>
+
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
 </resources>
