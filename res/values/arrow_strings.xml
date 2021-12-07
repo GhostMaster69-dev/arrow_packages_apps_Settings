@@ -260,4 +260,9 @@
     <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+
+    <!-- Fullscreen gestures -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
 </resources>
