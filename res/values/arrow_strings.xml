@@ -351,6 +351,7 @@
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
 
-    <!-- Cloudflare DNS Option -->
+    <!-- Private DNS Providers -->
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+    <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
 </resources>
