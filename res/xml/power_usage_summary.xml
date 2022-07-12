@@ -72,6 +72,13 @@
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />-->
 
     <Preference
+        android:key="high_power_apps"
+        android:title="@string/high_power_apps"
+        android:summary="@string/high_power_apps_summary">
+        <intent android:action="android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS" />
+    </Preference>
+
+    <Preference
         android:key="battery_settings"
         android:fragment="com.android.settings.arrow.StatusBarBattery"
         android:title="@string/battery_style_title"
